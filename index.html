@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hugo Adona - Alarm Clock</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/png" href="css/images/favicon.png">
+
+    <!-- Preconnect to Google Fonts for performance improvement -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="time">00:00:00</div>
+        <div class="date">00/00/0000</div>
+    </div>
+    <div class="controls">
+        <button id="setAlarm">Set</button>
+        <button id="stopAlarm">Stop</button>
+        <br><br>
+        <input type="datetime-local" id="alarmTime">
+    </div>
+    <audio id="alarmSound" src="sounds/alarm.mp3"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
