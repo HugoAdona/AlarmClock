@@ -19,7 +19,7 @@ input[type="datetime-local"] {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   font-size: 1em;
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial;
   width: 65%;
 }
 
@@ -81,7 +81,7 @@ button:active {
 /* DS-Digital font */
 @font-face {
   font-family: "DS-Digital";
-  src: url('fonts/DS-DIGIT.TTF') format('truetype');
+  src: url("fonts/DS-DIGIT.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
